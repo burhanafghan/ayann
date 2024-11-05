@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="link.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="converter-container">
+                <h1>Currency Conversion</h1>
+
+                <!-- Input Container for From Amount -->
+                <div class="input-container">
+                    <input type="number" class="fromamount" value="1" min="1">
+                    <select class="from_currency">
+                        <option value="USD">USD</option>
+                        <option value="AFN">AFN</option>
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+
+                <!-- Input Container for Converted Amount -->
+                <div class="input-container">
+                    <input type="number" class="converted-amount">
+                    <select class="To_currency">
+                        <option value="USD">USD</option>
+                        <option value="AFN">AFN</option>
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+
+                <!-- Result Display -->
+                <div class="result">1 USD = 63 AFN</div>
+            </div>
+        </section>
+    </main>
+    <script src="currency.js"></script>
+</body>
+</html>
